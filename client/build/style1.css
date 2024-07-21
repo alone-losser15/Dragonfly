@@ -1,0 +1,11 @@
+
+  .container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  canvas {
+    margin-top: 20px;
+  }
+  

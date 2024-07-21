@@ -1,0 +1,440 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #F1F1F1;
+  }
+  body {
+    font-family: var(--font-rubik), sans-serif;
+  }
+
+  .bg-gray-950 {
+    background-color: #1C1C1C;
+  }
+  
+  .bg-gray-900 {
+    background-color: #1F1F1F;
+  }
+  
+  .text-gray-50 {
+    color: #FAFAFA;
+  }
+  
+  .text-gray-300 {
+    color: #D1D1D1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .min-h-100dvh {
+    min-height: 100vh;
+  }
+  
+  .h-14 {
+    height: 3.5rem;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .sm\:gap-6 {
+    gap: 1.5rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .border-y {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+  }
+  
+  .pt-12 {
+    padding-top: 3rem;
+  }
+  
+  .md\:pt-24 {
+    padding-top: 6rem;
+  }
+  
+  .lg\:pt-32 {
+    padding-top: 8rem;
+  }
+  
+  .space-y-10 {
+    margin-bottom: 2.5rem;
+  }
+  
+  .xl\:space-y-16 {
+    margin-bottom: 4rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .max-w-1300px {
+    max-width: 1300px;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+  
+  .lg\:leading-tighter {
+    line-height: 1.1;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .tracking-tighter {
+    letter-spacing: -0.05em;
+  }
+  
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .md\:text-5xl {
+    font-size: 3rem;
+  }
+  
+  .xl\:text-3\.4rem {
+    font-size: 3.4rem;
+  }
+  
+  .2xl\:text-3\.75rem {
+    font-size: 3.75rem;
+  }
+  
+  .max-w-700px {
+    max-width: 700px;
+  }
+  
+  .md\:text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .dark\:text-gray-300 {
+    color: #D1D1D1;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-start {
+    align-items: flex-start;
+  }
+  
+  .space-y-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-lg {
+    padding: 0.75rem 1.5rem;
+    background-color: #2563EB;
+    color: #fff;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .btn-lg:hover {
+    background-color: #1D4ED8;
+  }
+  
+  .aspect-9\/4 {
+    aspect-ratio: 9 / 4;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .rounded-t-xl {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .bg-gray-800 {
+    background-color: #333;
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .max-w-900px {
+    max-width: 900px;
+  }
+  
+  .md\:text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .lg\:text-base {
+    font-size: 1rem;
+  }
+  
+  .xl\:text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .gap-8 {
+    gap: 2rem;
+  }
+  
+  .sm\:max-w-400px {
+    max-width: 400px;
+  }
+  
+  .input-lg {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #D1D1D1;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+  }
+  
+  .text-xs {
+    font-size: 0.75rem;
+  }
+  
+  .underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+  
+  .chart-container {
+    width: 100%;
+    height: 300px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  #typing-text {
+    min-height: 50px;
+    border-right: 2px solid;
+    overflow: hidden;
+    display: inline-block; /* Ensures the cursor effect works properly */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  
+    #typing-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    #typing-text {
+      font-size: 1.25rem; /* Adjust as necessary */
+    }
+  }
+
+  #scroll_page{
+    height: 600px;
+    width: 100%;
+    background-color:transparent;
+    /*background-image: url(../src/mainimage/img1.jpg)*/;
+  }
+
+#scroll_page img{
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+}
+
+#scroll-header {
+  width: 100%;
+  background-color: #555;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  transition: transform 1s ease;
+}
+
+#scroll-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#scroll-header nav ul li {
+  margin: 0 15px;
+}
+
+#scroll-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Existing styles */
+
+#technology .container {
+  max-width: 100%; /* Adjust if necessary */
+}
+
+#technology .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 2rem; /* Adjust gap as needed */
+}
+
+#technology .grid div {
+  grid-column: span 1; /* Ensure items span one column */
+}
+
+@media (max-width: 768px) {
+  #technology .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #technology .grid {
+    grid-template-columns: 1fr; /* 1 column on very small screens */
+  }
+}
+
+
+/* Update Flexbox layout for .grid */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col {
+  gap: 1rem; /* Adjust gap if needed */
+}
+
+/* Ensure flex items take up full width */
+.flex > div {
+  flex: 1;
+}
